@@ -1,0 +1,121 @@
+[debug] [2023-06-11T20:13:57.583Z] ----------------------------------------------------------------------
+[debug] [2023-06-11T20:13:57.586Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Deetunes\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-06-11T20:13:57.587Z] CLI Version:   12.3.1
+[debug] [2023-06-11T20:13:57.587Z] Platform:      win32
+[debug] [2023-06-11T20:13:57.587Z] Node Version:  v18.16.0
+[debug] [2023-06-11T20:13:57.589Z] Time:          Sun Jun 11 2023 21:13:57 GMT+0100 (West Africa Standard Time)
+[debug] [2023-06-11T20:13:57.589Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-11T20:13:57.601Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-11T20:13:57.602Z] > authorizing via signed-in user (deemajor230600@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Deetunes\Desktop\Html creations\remote code folder\folio-portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-06-11T20:14:49.086Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-06-11T20:14:49.087Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"Myproject-portfolio","name":"portfolio"}
+[debug] [2023-06-11T20:14:52.389Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2023-06-11T20:14:52.389Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2023-06-11T20:14:52.772Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at responseToError (C:\Users\Deetunes\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Deetunes\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2023-06-12T13:36:03.226Z] ----------------------------------------------------------------------
+[debug] [2023-06-12T13:36:03.230Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Deetunes\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-06-12T13:36:03.230Z] CLI Version:   12.3.1
+[debug] [2023-06-12T13:36:03.231Z] Platform:      win32
+[debug] [2023-06-12T13:36:03.232Z] Node Version:  v18.16.0
+[debug] [2023-06-12T13:36:03.234Z] Time:          Mon Jun 12 2023 14:36:03 GMT+0100 (West Africa Standard Time)
+[debug] [2023-06-12T13:36:03.234Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-12T13:36:03.255Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-12T13:36:03.257Z] > authorizing via signed-in user (deemajor230600@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Deetunes\Desktop\Html creations\remote code folder\folio-portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-06-12T13:36:44.111Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-06-12T13:36:44.112Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"portfolio-dee-ola","name":"portfolio-dee-ola"}
+[debug] [2023-06-12T13:36:44.226Z] FirebaseError: Failed to make request to https://cloudresourcemanager.googleapis.com/v1/projects
+    at RetryOperation._fn (C:\Users\Deetunes\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:242:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2023-06-12T13:37:39.930Z] ----------------------------------------------------------------------
+[debug] [2023-06-12T13:37:39.935Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Deetunes\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-06-12T13:37:39.936Z] CLI Version:   12.3.1
+[debug] [2023-06-12T13:37:39.938Z] Platform:      win32
+[debug] [2023-06-12T13:37:39.938Z] Node Version:  v18.16.0
+[debug] [2023-06-12T13:37:39.940Z] Time:          Mon Jun 12 2023 14:37:39 GMT+0100 (West Africa Standard Time)
+[debug] [2023-06-12T13:37:39.941Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-12T13:37:39.968Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-12T13:37:39.970Z] > authorizing via signed-in user (deemajor230600@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Deetunes\Desktop\Html creations\remote code folder\folio-portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-06-12T13:38:02.084Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-06-12T13:38:02.085Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"portfolio-dee-ola","name":"portfolio-dee-ola"}
+[debug] [2023-06-12T13:38:04.564Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2023-06-12T13:38:04.566Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.4966736839600106389"}
+[debug] [2023-06-12T13:38:04.577Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.4966736839600106389 [none]
+[debug] [2023-06-12T13:38:08.630Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.4966736839600106389 200
+[debug] [2023-06-12T13:38:08.632Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.4966736839600106389 {"name":"operations/cp.4966736839600106389","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","ready":true},"done":true,"error":{"code":8,"message":"The project cannot be created because you have exceeded your allotted project quota.","details":[{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"description":"The project cannot be created because you have exceeded your allotted project quota."}]}]}}
+[debug] [2023-06-12T13:38:10.614Z] FirebaseError: The project cannot be created because you have exceeded your allotted project quota.
+    at OperationPoller.poll (C:\Users\Deetunes\AppData\Roaming\npm\node_modules\firebase-tools\lib\operation-poller.js:24:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createCloudProject (C:\Users\Deetunes\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:186:29)
+    at async createFirebaseProjectAndLog (C:\Users\Deetunes\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:45:9)
+    at async promptAndCreateNewProject (C:\Users\Deetunes\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:32:12)
+    at async doSetup (C:\Users\Deetunes\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:88:27)
+    at async init (C:\Users\Deetunes\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:37:9)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
